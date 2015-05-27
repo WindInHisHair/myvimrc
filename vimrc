@@ -116,6 +116,7 @@ Bundle 'gmarik/vundle'
 "Bundle 'ervandw/supertab'
 Bundle 'scrooloose/nerdcommenter'
 "Bundle 'Valloric/YouCompleteMe'
-"filetype on
+
+filetype on
 
 filetype plugin indent on
