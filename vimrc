@@ -108,13 +108,13 @@ au BUfNewFIle,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
 
 set nocompatible
 filetype off
-"set rtp+=~/.vim/bundle/vundle/
-"call vundle#rc()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
-"Bundle 'gmarik/vundle'
+Bundle 'gmarik/vundle'
 "Bundle 'lsdr/monokai'
 "Bundle 'ervandw/supertab'
-"Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdcommenter'
 "Bundle 'Valloric/YouCompleteMe'
 
 filetype on
